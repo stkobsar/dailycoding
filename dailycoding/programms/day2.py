@@ -13,7 +13,6 @@ array_integers = [3, 2, 1]
 counter = 0
 list_len = []
 for (idx, value) in enumerate(array_integers):
-    #for idx in array_integers:
     if idx == 0:
         list_idx = array_integers[idx]
 

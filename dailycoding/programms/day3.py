@@ -17,4 +17,3 @@ class Node:
         self.left = left
         self.right = right
 
-def get_ad3()
