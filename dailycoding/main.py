@@ -4,10 +4,10 @@ import dailycoding.programms.day5 as d5
 
 def main(args):
     if args.day1:
-        k = int(input("Can you give me a number?"))
-        integer_list = input("List of integer numbers separate by space").split(" ")
-        integer_list = list(map(int, integer_list))
+        k = 17
+        integer_list = [10, 15, 3, 7]
         result_day1 = d1.get_day1(k, integer_list)
+        print(f"The result for the given k and integer list is: {result_day1}")
     if args.day5:
         object_from_cons_day5 = d5.cons(1, 5)
         result_car_day5 = d5.get_object_value_car(4, 7)
